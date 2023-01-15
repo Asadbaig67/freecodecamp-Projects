@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./RWD-P-1.css">
+    <title>Survey Form</title>
+</head>
+
+<body>
+    <div class="header">
+        <h2>freeCodeCamp Survey Form</h2>
+    </div>
+    <div class="container">
+        <div class="form-group">
+            <h4>Name</h4>
+            <input type="text" placeholder="Enter Your Name">
+        </div>
+        <div class="form-group">
+            <h4>Email</h4>
+            <input type="email" placeholder="Enter Your Email">
+        </div>
+        <div class="form-group">
+            <h4>Age (Optional)</h4>
+            <input type="age" placeholder="Age">
+        </div>
+        <div class="form-group">
+            <h4>Which best describes your current role?</h4>
+            <select name="role?" id="select-role">
+                <option value="Disabled">Select Current Role</option>
+                <option value="Student">Student</option>
+                <option value="Full time job">Full time job</option>
+                <option value="Full time learner">Full time learner</option>
+                <option value="Prefer not to say">Prefer not to say</option>
+                <option value="Others">Others</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <h4>Would you recommend freecodecamp to a friend?</h4>
+            <ul class="list">
+                <li class="list-item">
+                    <input type="radio" name="user-recommended" value="definitely">
+                    <label for="definitely">Definitely</label>
+                </li>
+                <li class="list-item">
+                    <input type="radio" name="user-recommended" value="maybe">
+                    <label for="May be">May be</label>
+                </li>
+                <li class="list-item">
+                    <input type="radio" name="user-recommended" value="notSure">
+                    <label for="Not Sure">Not Sure</label>
+                </li>
+            </ul>
+        </div>
+        <div class="form-group">
+            <h4>What is your favorite feature of freeCodeCamp ?</h4>
+            <select name="role?" id="select-role">
+                <option>Select an option</option>
+                <option value="Disabled">Challenges</option>
+                <option value="Student">Projects</option>
+                <option value="Full time job">Community</option>
+                <option value="Full time learner">Open Source</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <h4>What would you like to see improved ?</h4>
+            <ul class="list">
+                <li class="list-item">
+                    <input type="checkbox" name="user-recommended" value="definitely">
+                    <label for="definitely">Front-End Projects</label>
+                </li>
+                <li class="list-item">
+                    <input type="checkbox" name="user-recommended" value="maybe">
+                    <label for="May be">Back-End Projects</label>
+                </li>
+                <li class="list-item">
+                    <input type="checkbox" name="user-recommended" value="notSure">
+                    <label for="Not Sure">Data Visualization</label>
+                </li>
+                <li class="list-item">
+                    <input type="checkbox" name="user-recommended" value="notSure">
+                    <label for="Not Sure">Open Source Community</label>
+                </li>
+                <li class="list-item">
+                    <input type="checkbox" name="user-recommended" value="notSure">
+                    <label for="Not Sure">Challenges</label>
+                </li>
+                <li class="list-item">
+                    <input type="checkbox" name="user-recommended" value="notSure">
+                    <label for="Not Sure">Gitter help rooms</label>
+                </li>
+                <li class="list-item">
+                    <input type="checkbox" name="user-recommended" value="notSure">
+                    <label for="Not Sure">Videos</label>
+                </li>
+                <li class="list-item">
+                    <input type="checkbox" name="user-recommended" value="notSure">
+                    <label for="Not Sure">City Meetups</label>
+                </li>
+                <li class="list-item">
+                    <input type="checkbox" name="user-recommended" value="notSure">
+                    <label for="Not Sure">Wiki</label>
+                </li>
+                <li class="list-item">
+                    <input type="checkbox" name="user-recommended" value="notSure">
+                    <label for="Not Sure">Forum</label>
+                </li>
+                <li class="list-item">
+                    <input type="checkbox" name="user-recommended" value="notSure">
+                    <label for="Not Sure">Additional Courses</label>
+                </li>
+            </ul>
+        </div>
+        <div class="form-group">
+            <h4>Any comments or suggestions ?</h4>
+            <input class="commendus" type="text" placeholder="Enter your comments here....">
+        </div>
+        <div class="form-group">
+            <button class="btn" type="submit">Submit</button>
+        </div>
+    </div>
+</body>
+
+</html>

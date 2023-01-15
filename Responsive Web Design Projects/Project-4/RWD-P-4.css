@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Lato:wght@300&family=Montserrat:wght@300&family=Open+Sans:wght@300&family=Smooch&family=Ubuntu:wght@300&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+#header {
+    position: relative;
+}
+
+#header-img {
+    margin: 10px 0px 0px 10px;
+}
+
+#nav-bar {
+    /* display: inline-block; */
+    position: fixed;
+    top: 22px;
+    right: 126px;
+}
+
+#nav-bar>a {
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    font-size: 1.03rem;
+    margin: 0px 40px 0px 40px;
+}
